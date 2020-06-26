@@ -48,6 +48,18 @@ The outputs of the system, or rewards, can be broken down as follows (not a comp
 
 Similar to the inputs described above, the scope of the rewards in this project is bounded to their existence in the digital domain. Having said this, there seems to be greater flexibility here as many of the rewards outlined above can take both a digital and a non-digital form. For example, a traditional monetary reward would be given in cash, yet this can also be coded as a digital payment. Similarly an instance of public recognition could happen in person at a ceremony, or digitized in the form of a tweet or an account of the event in a digital publication.
 
+## Use Cases
+
+* ![](https://img.shields.io/badge/-data-blue) [Project Connect](https://www.projectconnect.world/) maps school location and connectivity globally to inform programmes around education, health and emergencies. A current workstream of this project is to crowdsource the actual locations of the schools in selected countries by either physically visiting each school and submitting a GPS reading, and/or reviewing satellite imagery and identifying the buildings from aerial photographs. The software tools to submit this data are under active development (summer 2020) and could incorporate the necessary elements of an incentive program.
+
+* ![](https://img.shields.io/badge/-content-orange) [Translate a Story](https://translateastory.org/) took place in the form of a sprint from April 8 – May 29, 2020 to translate children’s reading books into new languages: 1,266 volunteers joined to translate 6,614 books into 100+ languages so that children could have access to the books they need to continue to read! This was a collaboration between Norway, UNESCO, UNHCR, ADEA, The Global Book Alliance, Verizon, The Global Digital Library, Pratham Books’ StoryWeaver, The Asia Foundation’s Let’s Read initiative, African Storybook, Learning Equality and Creative Commons in response to the COVID-19 pandemic, resulting in more than 1.5 billion children and youth being left out of school. There is interest in being able to retroactively recognize each of the volunteer translators and/or incentivize further translation in any of the participating children's book repositories.
+
+* ![](https://img.shields.io/badge/-code-brightgreen) From the list of [400+ nominees of Digital Public Goods](https://digitalpublicgoods.net), the DPG Alliance has currently four active Communities of Practice (CoP) in the areas of early grade reading, digital health, financial inclusion and climate adaptation vetting subsets of nominees in each domain. The output of these CoPs will be the selection of certain projects to endorse and support, where we would like to have a system to incentivize contributions in those selected projects.
+
+
+
+
+
 ## Resources
 
 A list of relevant and/or similar projects, initiatives or building blocks for this project (includes a short paragraph summarizing their reason for listing):
