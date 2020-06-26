@@ -1,3 +1,7 @@
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
+
 # Incentives
 
 The goal of this project is to build a system to **incentivize**, **recognize** and **reward** contributions to **Digital Public Goods** (DPGs), defined as open source software, open data, open AI models, open standards and open content that adhere to privacy and other applicable best practices, do no harm and are of high relevance for attainment of the [UN’s 2030 Sustainable Development Goals](https://www.undp.org/content/undp/en/home/sustainable-development-goals.html) (SDGs). 
