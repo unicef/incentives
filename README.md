@@ -1,13 +1,52 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-brightgreen.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
-
 # Incentives
 
 The goal of this project is to build a system to **incentivize**, **recognize** and **reward** contributions to **Digital Public Goods** (DPGs), defined as open source software, open data, open AI models, open standards and open content that adhere to privacy and other applicable best practices, do no harm and are of high relevance for attainment of the [UN’s 2030 Sustainable Development Goals](https://www.undp.org/content/undp/en/home/sustainable-development-goals.html) (SDGs). 
 
 This project is one of the workstreams of the [Digital Public Goods Alliance](https://digitalpublicgoods.net/), and is led by the [UNICEF Office of Innovation](https://www.unicef.org/innovation/). One of the primary objectives of this project is to be designed, developed and implemented in an open, transparent and collaborative way involving the broad open source community.
 
+## Motivation
+
+The aim of the [Digital Public Goods Alliance](https://digitalpublicgoods.net/) is to facilitate the discovery, development, use of, and investment in openly licensed technologies, data models, and content of high relevance for attainment of the Sustainable Development Goals (SDGs). Thus, it is our hypothesis that having an incentive system in place will advance our mission in terms of facilitation of the aforementioned *development of* and *investment in* open technologies and open content.
+
+This project addresses the broader issue of the sustainability of open source (always a hot topic 🔥) and rewarding community contributions. While we recognize that there are several other initiatives in this space, we feel there is not a system or implementation that fits our needs that cut across projects and communities, but shares common values on doing good and improving livelihoods around the world.
+
+## Design Considerations
+
+In its simplest form, this system can be thought of having three components:
+
+[![](https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggTFJcblx0QVtJbnB1dF0gLS0-QihQcm9jZXNzKVxuXHRCIC0tPiBDW091dHB1dF1cblx0XHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggTFJcblx0QVtJbnB1dF0gLS0-IEIoUHJvY2Vzcylcblx0QiAtLT4gQ1tPdXRwdXRdXG5cblx0XHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
+
+- **Input** is each of the contributions that are being incentivized.
+- **Process** by which the inputs are reviewed, validated and assigned a value.
+- **Output** is the value that is assigned to each input and awarded to the corresponding contributor.
+
+### Inputs: Type of Contributions
+
+The contributions to incentivize can take several forms. An initial classification is presented below:
+
+[![](https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggTFJcblx0QShDb250cmlidXRpb25zKSAtLT4gQihOYXRpdmVseSBEaWdpdGFsKVxuXHRBIC0tPiBDKE5hdGl2ZWx5IE5vbi1EaWdpdGFsKVxuXHRCOjo6Z3JlZW4gLS0-IEQoQ29kZSlcblx0QiAtLT4gRShDb250ZW50KVxuXHRCIC0tPiBGKERhdGEpXG5cdEQ6OjpncmVlblxuXHRFOjo6Z3JlZW5cblx0Rjo6OmdyZWVuXG5cdGNsYXNzRGVmIGdyZWVuIGZpbGw6IzBGMDtcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggTFJcblx0QShDb250cmlidXRpb25zKSAtLT4gQihOYXRpdmVseSBEaWdpdGFsKVxuXHRBIC0tPiBDKE5hdGl2ZWx5IE5vbi1EaWdpdGFsKVxuXHRCOjo6Z3JlZW4gLS0-IEQoQ29kZSlcblx0QiAtLT4gRShDb250ZW50KVxuXHRCIC0tPiBGKERhdGEpXG5cdEQ6OjpncmVlblxuXHRFOjo6Z3JlZW5cblx0Rjo6OmdyZWVuXG5cdGNsYXNzRGVmIGdyZWVuIGZpbGw6IzBGMDtcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
+
+*Natively Digital* contributions are those that inherently exist in the digital world:
+- **code** contributions in the form of commits or pull requests to an existing source code repository.
+- **content** whether in the form of factual knowledge, narrative or documentation.
+- **data** or information, usually numerical, that are collected through observation.
+
+Given the *digital* nature of Digital Public Goods, we will limit the scope of the system to only handle *Natively Digital* inputs, and leaving out *Non-natively digital* inputs. Nonetheless, insofar non-natively digital inputs can be digitized by external processes, these can then be considered as valid digital inputs to this system, but such external processes are considered out of scope of this project.
+
+### Process
+
+The processing of inputs should be designed as flexible as possible to accommodate an ample array of possibilities. On one end of the automation spectrum, the process could be fully automated, where the contribution could be verified and validated through a well-defined set of rules and associated tests. On the other end, manual review by one or more individuals would be required to corroborate the quality, uniqueness, veracity or authorship of the contribution. The system should thus be agnostic to the actual processing of inputs and outputs, and allow for the mechanics of the actual processing to be set on a case by case basis.
+
+### Outputs: Type of Rewards
+
+The outputs of the system, or rewards, can be broken down as follows (not a comprehensive classification):
+
+[![](https://mermaid.ink/svg/eyJjb2RlIjoiZ3JhcGggTFJcblx0QShSZXdhcmRzKSAtLT4gQihGaW5hbmNpYWwpXG5cdEEgLS0-IEMoTm9uLUZpbmFuY2lhbClcblx0QiAtLT4gRChNb25ldGFyeSlcblx0QiAtLT4gRShOb24tTW9uZXRhcnkpXG5cdEUgLS0-IEgoQ3JlZGl0cylcblx0RSAtLT4gSShDb3Vwb25zKVxuXHRFIC0tPiBKKFRpY2tldHMpXG5cdEUgLS0-IEsoQ2FyZWVyIE9wcHMpXG5cdEQgLS0-IEYoRmlhdClcblx0RCAtLT4gRyhDcnlwdG8pXG5cdEMgLS0-IEwoQmFkZ2VzKVxuXHRDIC0tPiBNKFB1YmxpYyBSZWNvZ25pdGlvbilcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiZ3JhcGggTFJcblx0QShSZXdhcmRzKSAtLT4gQihGaW5hbmNpYWwpXG5cdEEgLS0-IEMoTm9uLUZpbmFuY2lhbClcblx0QiAtLT4gRChNb25ldGFyeSlcblx0QiAtLT4gRShOb24tTW9uZXRhcnkpXG5cdEUgLS0-IEgoQ3JlZGl0cylcblx0RSAtLT4gSShDb3Vwb25zKVxuXHRFIC0tPiBKKFRpY2tldHMpXG5cdEUgLS0-IEsoQ2FyZWVyIE9wcHMpXG5cdEQgLS0-IEYoRmlhdClcblx0RCAtLT4gRyhDcnlwdG8pXG5cdEMgLS0-IEwoQmFkZ2VzKVxuXHRDIC0tPiBNKFB1YmxpYyBSZWNvZ25pdGlvbilcbiIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
+
+Similar to the inputs described above, the scope of the rewards in this project is bounded to their existence in the digital domain. Having said this, there seems to be greater flexibility here as many of the rewards outlined above can take both a digital and a non-digital form. For example, a traditional monetary reward would be given in cash, yet this can also be coded as a digital payment. Similarly an instance of public recognition could happen in person at a ceremony, or digitized in the form of a tweet or an account of the event in a digital publication.
 
 ## Licensing
 
