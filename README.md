@@ -48,6 +48,16 @@ The outputs of the system, or rewards, can be broken down as follows (not a comp
 
 Similar to the inputs described above, the scope of the rewards in this project is bounded to their existence in the digital domain. Having said this, there seems to be greater flexibility here as many of the rewards outlined above can take both a digital and a non-digital form. For example, a traditional monetary reward would be given in cash, yet this can also be coded as a digital payment. Similarly an instance of public recognition could happen in person at a ceremony, or digitized in the form of a tweet or an account of the event in a digital publication.
 
+## Resources
+
+A list of relevant and/or similar projects, initiatives or building blocks for this project (includes a short paragraph summarizing their reason for listing):
+
+* [Badgr](https://badgr.org/) is open source software based on open standards that allows you to work with Open Badges issued by any OB-compliant platform.
+* [Open Badges](https://openbadges.org/) is the name of a group of specifications and [open technical standards](https://www.imsglobal.org/activity/digital-badges) that describes a method for packaging information about accomplishments, embedding it into portable image files as a digital badge, and establishing an infrastructure for badge validation. 
+* [Fedora Badges](https://badges.fedoraproject.org/) is a fun website built to recognize contributors to the Fedora Project, help new and existing Fedora contributors find different ways to get involved, and encourage the improvement of Fedora's infrastructure.
+* [Gitcoin](https://gitcoin.com) is a project that combines the #givefirst mantra of the Boulder community with capitalistic incentives to write great software. By enabling Repo Maintainers, developers, and financiers to find one another, Gitcoin grows open source software, mostly centered around the Ethereum ecosystem in the blockchain domain.
+* [GitHub Sponsors](https://github.com/sponsors) allows the developer community to financially support the people and organizations who design, build, and maintain the open source projects they depend on, directly on GitHub.
+
 ## Licensing
 
 All the content in this project is licensed under a [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/). Under the terms of this license, you are free to:
